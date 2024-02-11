@@ -1,0 +1,476 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100&display=swap");
+
+body{
+    background-color: #fff;
+    color: rgb(53, 15, 1);
+    font-family: "Poppins";
+    margin: 0;
+}
+
+header{
+    max-width: 1400px;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+nav img{
+    width: 80px;
+    height: 80px;
+    margin: 0;
+    padding: 0;
+}
+nav ul{
+    padding: 0;
+    margin: 0;
+}
+nav li{
+    list-style: none;
+    padding: 0;
+    
+}
+
+li{
+    display: inline-block;
+    padding: 60px;
+    margin: 0 auto;
+    gap: 30px;
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 30px;
+    color: rgb(53, 15, 1);
+    transition: 1s;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+
+.social-icons{
+    justify-items: end;
+}
+.social-icons img{
+    width: 20px;
+    height: 20px;
+}
+
+/*Homepage*/
+div{
+    text-align: center;
+}
+div img{
+    width: 300px;
+    border: 4px solid rgb(53, 15, 1);
+    border-radius: 8px;
+}
+.hero-section{
+    max-width: 100%;
+    height: 1200px;
+    background: url(images/hero\ image\ \(2\).PNG) no-repeat;
+    background-position: start;
+    background-size: 100%;
+    border-top: 1px solid rgb(53, 15, 1);
+}
+.hero-section h1{
+    text-align: center;
+    font-size: 4em;
+    color: rgb(53, 15, 1);
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+.hero-section p{
+    font-size: 20px;
+    line-height: 2em;
+    color:rgb(53, 15, 1);
+    padding: 10px;
+    margin-top: 0;
+}
+.hero-section a{
+    background-color:rgb(53, 15, 1);
+    color: #fff;
+    padding: 5px 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background 1s;
+}
+.hero-section a:hover{
+    background: rgb(172, 84, 52);
+}
+.pastries{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 1400px;
+    margin: 20px 10px;
+    border-bottom: 1px solid rgb(53, 15, 1);
+    padding-bottom: 30px;
+}
+.Featured h2{
+    background-color: rgb(53, 15, 1);
+    border-radius: 10px;
+    width: 320px;
+    color: #fff;
+    margin: 10px auto;
+    padding: 10px 10px;
+    text-align: center;
+    position: relative;
+    top: 45px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+}
+.pastries h3{
+    background-color: rgb(53, 15, 1);
+    width: 280px;
+    color: #fff;
+    margin: 10px auto;
+    padding: 10px 10px;
+    text-align: center;
+    position: relative;
+    top: 385px;
+}
+.pastries p{
+    text-align: center;
+    padding: 20px;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+
+
+/*About page*/
+.about{
+    max-width: 1400px;
+    padding: 18px;
+    border-top: 1px solid rgb(53, 15, 1);
+}
+.about h2{
+    background-color: rgb(53, 15, 1);
+    border-radius: 10px;
+    width: 200px;
+    color: #fff;
+    margin: 10px auto;
+    padding: 10px 10px;
+    text-align: center;
+    font-size: 28px;
+}
+.about p{
+    margin-top: 10px;
+    font-size: 18px;
+}
+.about p strong{
+    margin-bottom: 0;
+}
+.about ul{
+    padding-left: 0;
+}
+.about li{
+    padding: 0;
+    display: block;
+    text-align: center;
+}
+.about em{
+    font-size: 23px;
+}
+.standard{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
+    width: 100%;
+}
+.standard h3{
+    font-size: 22px;
+    text-decoration: underline;
+    margin-bottom: 0;
+}
+.standard p{
+    margin-top: 0;
+    padding: 10px;
+    font-size: 21px;
+}
+.standard ul{
+    margin-top: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+.standard1, .standard2{
+    padding: 15px;
+    background-color: rgb(53, 15, 1);
+    color: #fff;
+    border-radius: 8px;
+}
+.standard2 li{
+    font-size: 19px;
+    padding: auto;
+}
+
+
+
+/*Contact page*/
+.contact{
+    max-width: 1400px;
+    padding: 18px;
+    border-top: 1px solid rgb(53, 15, 1);
+}
+.contact h2{
+    background-color: rgb(53, 15, 1);
+    border-radius: 10px;
+    width: 200px;
+    color: #fff;
+    margin: 10px auto;
+    padding: 10px 10px;
+    text-align: center;
+}
+.contact-info{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.contact-info h3{
+    margin-bottom: 3px;
+}
+.contact-info p{
+    margin-top: 4px;
+}
+.contact form{
+    width: 80%;
+    max-width: 400px;
+    margin: 20px auto;
+    text-align: center;
+}
+.form{
+    text-align: center;
+    margin: 0 auto;
+}
+
+form input{
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px 20px;
+    font-size: 15px;
+    border: 3px solid rgb(53, 15, 1);
+}
+form textarea{
+    width: 50%;
+    margin: 10px auto;
+    border: 3px solid rgb(53, 15, 1);
+}
+form button{
+    margin-top: 15px;
+    padding: 10px;
+    background-color:rgb(53, 15, 1);
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background 1s;
+}
+form button:hover{
+    background: rgb(172, 84, 52);
+}
+
+
+/*Product page*/
+.productlist{
+    max-width: 1400px;
+    padding: 18px;
+    border-top: 1px solid rgb(53, 15, 1);
+    border-bottom: 1px solid rgb(53, 15, 1);
+}
+.productlist h2{
+    background-color: rgb(53, 15, 1);
+    border-radius: 10px;
+    width: 250px;
+    color: #fff;
+    margin: 10px auto;
+    padding: 10px 10px;
+    text-align: center;
+}
+.productitem{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 auto;
+}
+.product p{
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    top: -50px;
+    font-size: 18px;
+    margin: 0 auto;
+}
+.product h3{
+    background-color: rgb(53, 15, 1);
+    width: 288px;
+    color: #fff;
+    margin: 10px auto;
+    padding: 10px 10px;
+    text-align: center;
+    position: relative;
+    top: -60px;
+}
+.price{
+    font-weight: bold;
+    font-size: 30px;
+    position: relative;
+    top: -40px;
+}
+@media only screen and (max-width: 1020px){
+    .productitem{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 0 auto;
+    }
+
+}
+
+@media only screen and (max-width: 989px){
+    .Featured h2{
+        top: 35px;
+    }
+    .pastries{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        max-width: 1000px;
+        border-bottom: 1px solid rgb(53, 15, 1);
+        padding-bottom: 30px;
+        margin: 0;
+    }
+    .pastries-item{
+        grid-row: span 2;
+    }
+    .pastries-item1 h3{
+        top: 384px;
+    }
+    .pastries-item3 h3{
+        top: 384px;
+    }
+    .pastries-item img{
+        width: 400px;
+    }
+    .pastries-item3{
+        grid-column: span 3;
+    }
+    .hero-section{
+        min-width: 100%;
+        height: 1000px;
+    
+    }
+    .hero-section p{
+        font-size: 1.1em;
+        line-height: 1.8em;
+
+}
+}
+@media only screen and (max-width: 878px){
+    .Featured h2{
+        font-size: 1.8em;
+        width: 300px;
+    }
+    .pastries{
+        display: block;
+        max-width: 800px;
+        margin: 20px auto;
+        padding-bottom: 15px;
+    }
+    .pastries-item2 h3{
+        top: 384px;
+    }
+    .pastries-item2{
+        position: relative;
+        top: -45px;
+    }
+    .pastries-item3{
+        position: relative;
+        top: -75px;
+    }
+    
+    .hero-section h1{
+        text-align: center;
+        font-size: 3em;
+    }
+    .hero-section p{
+        font-size: 1.2em;
+        line-height: 2em;
+    }
+    .hero-section a{
+        padding: 5px 10px;
+        padding: 10px 20px;
+        border-radius: 3px;
+        
+    }
+
+}
+@media only screen and (max-width: 798px){
+    nav{
+        display: flex;
+        flex: 1 1 100px;
+    }
+    .hero-section{
+    height: 600px;
+    }
+}
+@media only screen and (max-width: 720px){
+    .productitem{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .standard{
+        grid-column: span 2;
+        gap: 30px;
+    
+    }
+}
+@media only screen and (max-width: 675px){
+  form{
+    position: relative;
+    right: 30px;
+  }
+
+
+}
+@media only screen and (max-width: 654px){
+    .hero-section{
+        height: 400px;
+    }
+    .pastries p{
+        padding: 5px;
+    }
+}
+@media only screen and (max-width: 651px){
+    .hero-section{
+        height: 500px;
+    }
+}
+
+@media only screen and (max-width: 570px){
+    .Featured h2{
+        top: 14px;
+    }
+    .pastries-item1 {
+        top: -40px;
+    }
+   form{
+    margin: 0;
+   }
+   .contact-info{
+    display: block;
+    margin: 10px auto;
+}
+}
+@media only screen and (max-width: 570px){
+    .standard{
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+}
